@@ -55,7 +55,8 @@ CREATE TABLE `transactions` (
   KEY `sender_account_number` (`sender_account_number`,`receiver_account_number`),
   KEY `sender_account_number_2` (`sender_account_number`,`receiver_account_number`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
-###Chức năng
+
+### Chức năng
 - Khách hàng:
   - Đăng ký
   - Đăng nhập
